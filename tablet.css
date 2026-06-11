@@ -1,0 +1,154 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+  #header-text {
+    display: none;
+  }
+  #buttom-menu {
+    display: flex;
+  }
+  #headermenu {
+    justify-content: space-between;
+  }
+  #frame12 {
+    width: 100%;
+    height: 650px;
+  }
+  #frame12-1 {
+    width: 100%;
+    height: 650px;
+  }
+  #rame13-background {
+    width: 100%;
+    height: 650px;
+  }
+  #frame12-2-background {
+    display: none;
+  }
+
+  #b1tablet {
+    background: url(/images/background1.png) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #b1 {
+    display: none;
+  }
+  #b2 {
+    display: none;
+  }
+  #b3 {
+    display: none;
+  }
+  #b4 {
+    display: none;
+  }
+  #b5 {
+    display: none;
+  }
+
+  #b6 {
+    display: none;
+  }
+
+  #b2tablet {
+    background: url(/images/tab2.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 49%;
+    height: 490px;
+    z-index: 0;
+    justify-content: center;
+    align-items: end;
+    display: flex;
+    padding-bottom: 20px;
+  }
+  #b3tablet {
+    background: url(/images/tab3.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 49%;
+    height: 490px;
+    z-index: 0;
+    justify-content: center;
+    align-items: start;
+    display: flex;
+    padding-top: 1px;
+  }
+  #b4 {
+    background: url(/images/background4\ copy.png) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 49%;
+    height: 490px;
+    z-index: 0;
+    justify-content: center;
+    align-items: start;
+    display: flex;
+    padding-top: 1px;
+  }
+  #b5tablet {
+    background: url(/images/tab4.png) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 49%;
+    height: 490px;
+    z-index: 0;
+    justify-content: center;
+    align-items: start;
+    display: flex;
+    padding-top: 1px;
+  }
+  #b6tablet {
+    background: url(/images/tab5.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 49%;
+    height: 490px;
+    z-index: 0;
+    justify-content: center;
+    align-items: start;
+    display: flex;
+    padding-top: 1px;
+  }
+  #b7tablet {
+    background: url(/images/background5.png) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 49%;
+    height: 490px;
+    z-index: 0;
+    justify-content: center;
+    align-items: start;
+    display: flex;
+    padding-top: 1px;
+  }
+  #boxb2 {
+    width: 241px;
+    height: 161px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid green; */
+    align-items: center;
+    gap: 10px;
+  }
+}
