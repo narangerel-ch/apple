@@ -653,7 +653,6 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  /* flex-shrink: 0; */
   display: flex;
   align-items: end;
   flex: 0, 0, auto;
@@ -668,7 +667,6 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  /* flex-shrink: 0; */
   display: flex;
   align-items: end;
   flex: 0, 0, auto;
@@ -686,6 +684,15 @@
   flex: 0, 0, auto;
   width: 1250px;
   height: 668px;
+}
+#tabpic1 {
+  display: none;
+}
+#tabpic2 {
+  display: none;
+}
+#tabpic3 {
+  display: none;
 }
 #frame68 {
   width: 600px;
@@ -716,6 +723,15 @@
   width: 100%;
   overflow-x: auto;
   overflow-y: hidden;
+}
+#tabrowpic1 {
+  display: flex;
+}
+#tabrowpic2 {
+  display: flex;
+}
+#tabrowpic3 {
+  display: flex;
 }
 #rowpic {
   width: 100%;
