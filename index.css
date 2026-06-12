@@ -169,7 +169,7 @@
   border-radius: 999px;
   border: 1px solid #2997ff;
 }
-#mobile {
+#mobileframe12-1 {
   display: none;
 }
 #frame12-1 {
@@ -178,7 +178,7 @@
   justify-content: center;
   display: flex;
 
-  background: url(/images/frame12Background1.png) no-repeat center center;
+  background: url(/images/desktop16blu.png) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -244,7 +244,7 @@
   gap: 12px;
   display: flex;
   flex-wrap: wrap;
-  margin-left: 3px;
+  /* margin-left: 3px; */
 }
 #b1 {
   background: url(/images/background1.png) no-repeat center center;
@@ -276,6 +276,25 @@
   display: none;
 }
 #b7tablet {
+  display: none;
+}
+#b1mobile {
+  display: none;
+}
+#b2mobile {
+  display: none;
+}
+#b3mobile {
+  display: none;
+}
+
+#b6mobile {
+  display: none;
+}
+#b5mobile {
+  display: none;
+}
+#b7mobile {
   display: none;
 }
 
@@ -719,20 +738,35 @@
   font-weight: 400;
   color: #ffffff;
 }
+#tablist {
+  width: 100%;
+  height: 8px;
+  display: flex;
+  justify-content: center;
+}
+#tablistpic {
+  background-image: url(/images/Tablist.png);
+  width: 220px;
+  height: 8px;
+  background-size: cover;
+}
+#bodyrowbottom {
+  width: 100%;
+  height: 292px;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid green;
+  position: relative;
+}
 #rowbottom {
   width: 100%;
   overflow-x: auto;
   overflow-y: hidden;
 }
-#tabrowpic1 {
-  display: flex;
+.tabrowpic {
+  display: none;
 }
-#tabrowpic2 {
-  display: flex;
-}
-#tabrowpic3 {
-  display: flex;
-}
+
 #rowpic {
   width: 100%;
   width: max-content;
@@ -921,4 +955,13 @@
   font-size: 14px;
   font-weight: 600;
   color: #484040;
+}
+#button-play {
+  width: 24px;
+  height: 24px;
+  background-image: url(/images/Button\ -\ play\ the\ gallery.png);
+  background-size: cover;
+  position: relative;
+  left: 890px;
+  top: 20px;
 }
