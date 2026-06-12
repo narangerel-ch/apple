@@ -73,11 +73,11 @@
 }
 #body1 {
   width: 100%;
-  height: 4880px;
   display: flex;
-  border: 2px solid black;
+  /* border: 2px solid black; */
   flex-direction: column;
   gap: 12px;
+  overflow-x: clip;
 }
 
 #frame12 {
@@ -104,8 +104,6 @@
   width: 405px;
   height: 172px;
   margin-top: 55px;
-  margin-left: 757px;
-  margin-right: 758px;
   /* border: 2px solid black; */
   display: flex;
   flex-direction: column;
@@ -287,7 +285,9 @@
 #b3mobile {
   display: none;
 }
-
+#b4mobile {
+  display: none;
+}
 #b6mobile {
   display: none;
 }
